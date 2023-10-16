@@ -23,7 +23,7 @@ Replace `CityName` with the name of the city you're interested in.
 ### Customizing Requests
 
 ```bash
-python weather_cast.py --city CityName --details temperature humidity
+python main.py CityName --details temperature humidity
 ```
 
 This command fetches specific details, such as temperature and humidity, for the specified city.
